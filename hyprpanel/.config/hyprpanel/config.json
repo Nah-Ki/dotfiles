@@ -1,7 +1,7 @@
 {
   "theme.bar.menus.monochrome": false,
   "wallpaper.pywal": true,
-  "wallpaper.image": "/home/naqui/Downloads/w1.jpg",
+  "wallpaper.image": "/home/naqui/wallpapers/w1.jpg",
   "theme.bar.transparent": true,
   "theme.bar.background": "#9a9996",
   "theme.bar.buttons.style": "default",
@@ -22,8 +22,8 @@
   "theme.bar.buttons.workspaces.border": "#9a9996",
   "theme.bar.buttons.windowtitle.background": "#242438",
   "theme.matugen": false,
-  "theme.matugen_settings.mode": "dark",
-  "theme.matugen_settings.scheme_type": "monochrome",
+  "theme.matugen_settings.mode": "light",
+  "theme.matugen_settings.scheme_type": "neutral",
   "theme.bar.buttons.windowtitle.text": "#9a9996",
   "theme.bar.buttons.windowtitle.icon": "#deddda",
   "theme.bar.buttons.windowtitle.icon_background": "#242438",
@@ -112,7 +112,7 @@
   "menus.power.showLabel": true,
   "menus.power.lowBatteryNotification": true,
   "theme.bar.menus.menu.media.scaling": 100,
-  "wallpaper.enable": false,
+  "wallpaper.enable": true,
   "menus.media.displayTime": false,
   "notifications.autoDismiss": true,
   "menus.clock.weather.enabled": false,
@@ -340,5 +340,8 @@
   "bar.network.showWifiInfo": true,
   "theme.bar.buttons.systray.enableBorder": false,
   "bar.clock.showTime": true,
-  "bar.clock.showIcon": true
+  "bar.clock.showIcon": true,
+  "tear": false,
+  "theme.font.name": "Ubuntu Nerd Font",
+  "theme.font.label": "JetBrainsMono Nerd Font Medium"
 }
