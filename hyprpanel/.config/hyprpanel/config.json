@@ -343,5 +343,6 @@
   "bar.clock.showIcon": true,
   "tear": false,
   "theme.font.name": "Ubuntu Nerd Font",
-  "theme.font.label": "JetBrainsMono Nerd Font Medium"
+  "theme.font.label": "JetBrainsMono Nerd Font Medium",
+  "menus.volume.raiseMaximumVolume": true
 }
