@@ -14,7 +14,6 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # Directly set the prompt theme
 ZSH_THEME="avit"  # You can replace this with any other theme
-PROMPT=$ZSH_THEME  # This sets the prompt immediately
 
 # === Aliases ===
 alias ll='ls -lh'
@@ -44,6 +43,9 @@ bindkey -e  # Use emacs keybindings (default); use `bindkey -v` for vim mode
 
 # === Load local overrides ===
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+if [[ -f ~/.cache/wal/colors-kitty.conf ]]; then
+  kitty @ set-colors --all ~/.cache/wal/colors-kitty.conf
+fi
 
 # === Plugins ===
 plugins=(git)
