@@ -50,4 +50,4 @@ fi
 # === Plugins ===
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
-
+export PATH="/usr/local/go/bin:$PATH"
